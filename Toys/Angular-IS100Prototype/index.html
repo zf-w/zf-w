@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Study Lounge Website</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body ng-app='App'>
+	<nav class="navbar navbar-expand-md navbar-light bg-light" ng-controller="NavbarController as nav">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#" ng-click="nav.toProfile()">{{nav.current[0]}}</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-link" href="#" ng-click="nav.toProfile()" ng-if="nav.pageState[0]!=0">Profile</a>
+				<a class="nav-link" href="#" ng-click="nav.toIndex()" ng-if="nav.pageState[0]!=1">Read</a>
+				<a class="nav-link" href="#" ng-click="nav.toPost()" ng-if="nav.pageState[0]!=2">Post</a>	
+				<a class="nav-link" href="#" ng-click="nav.toFind()" ng-if="nav.pageState[0]!=3">Find</a>
+				<a class="nav-link" href="#" ng-click="nav.toStudy()" ng-if="nav.pageState[0]!=4">Study</a>
+				<input type="text" placeholder="Search (Future)"></input>
+			</div>
+		  </div>
+		</div>
+	</nav>
+	<section class="container" ng-controller="Controller as ctrl">
+		<section class="container">
+			<div class="block col-12" ng-if="ctrl.pageState[0]==0">
+				<heading class="title">Profile</heading>
+				<p class="box long">
+					Profile content here
+				</p>
+			</div>
+		</section>
+		<section>
+			<div class = 'block col-12' ng-repeat="item in ctrl.postsList" ng-if="ctrl.pageState[0]==1">
+				<heading class="title">Title: {{item.title}}</heading>
+				<p>
+					{{item.content}}
+				</p>
+				<div class="loves">
+					{{item.likes}} Likes
+				</div>
+				<button ng-click="ctrl.like($index)">Like</button>
+			</div>
+		</section>
+		<section class="container">
+			<div class="block col-12" ng-if="ctrl.pageState[0]==2">
+				<textarea class="box fullWidth" size = "100" placeholder="Title (> 3 letters)" ng-model='ctrl.title' ng-keyup='ctrl.check()'></textarea> <br>
+				<textarea class="box fullWidth long" warp="hard" placeholder="Content (> 10 letters)" ng-model='ctrl.content' ng-keyup='ctrl.check()'></textarea>
+				<button ng-click="ctrl.addPosts()" ng-if="ctrl.valid==true">Submit</button>
+			</div>
+		</section>
+		<section class="container">
+			<div class="block col-12" ng-repeat="item in ctrl.postsList" ng-if="ctrl.pageState[0]==3">
+				<heading class="title">People{{$index + 1}}</heading>
+				<p>
+					Lorem ipsum dolor sit amet.
+				</p>
+			</div>
+		</section>
+		<section class="container">
+			<div class="block col-12" ng-repeat="item in ctrl.postsList" ng-if="ctrl.pageState[0]==4">
+				<heading class="title">StudyRoom{{$index + 1}} ZOOM Link</heading>
+				<p>
+					Lorem ipsum dolor sit amet.
+				</p>
+			</div>
+		</section>
+	</section>
+</body>
+</html>
