@@ -8,7 +8,7 @@ This project is about a single-page web app with pagination displaying the graph
 
 ## ReactThree-1111Game 2023 Spring [link](Toys/ReactThree-1111Game)
 
-This mini project is about a simple game visualization of a game called (I think) "one plus one" or "left right hand." In this project, I was learning how to bind Three.js 3D object with 2D React components and their states.
+This mini project is about a simple game visualization of a game called (I think) "one plus one" or "left-right hand." In this project, I was learning how to bind Three.js 3D objects with 2D React components and their states.
 
 ## Angular-IS100Prototype 2021 Fall [link](Toys/Angular-IS100Prototype)
 
