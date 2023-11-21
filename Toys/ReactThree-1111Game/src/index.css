@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+canvas {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+}
+
+.container {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: #ffffff;
+  background-color: #222222;
+}
+
+.intro {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  right: 20%;
+  top: 0;
+  color: #ffffff;
+  background-color: rgba(34,34,34,0.5);
+  border-right: solid 1px #ffffff;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.controller {
+  height: 60%;
+  width: 100%;
+}
+
+.pos-ab {
+  position: absolute;
+}
+
+.manual {
+  height: 40%;
+  width: 100%;
+  
+  overflow: auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.font-6 {
+  font-size: 60%;
+}
+
+.font-4 {
+  font-size: 40%;
+}
+
+.p-1 {
+  padding: 1%;
+}
+
+.p-5 {
+  padding: 5%;
+}
+
+.mt-2 {
+  margin-top: 2%;
+}
+
+.max-w-6 {
+  max-width: 60vh;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.w-10 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.n-select {
+  user-select: none;
+}
+
+.c-white {
+  color: #ffffff;
+}
+
+.c0 {
+  color: #ff0000;
+}
+
+.c1 {
+  color: #0000ff;
+}
+
+.c2 {
+  color: rgb(128, 200, 129);
+}
+.btm {
+  border: solid #ffffff 2px;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.br-20 {
+  border-radius: 20%;
+}
+
+.btm:hover {
+  border-color: #ff0000;
+  cursor: pointer;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.b-c0 {
+  border-left: solid 3px #ff0000
+}
+
+.b-c0:hover {
+  border-left: solid 3px #ffffff
+}
+
+.b-c1 {
+  border-left: solid 3px #0000ff
+}
+
+.b-c1:hover {
+  border-left: solid 3px #ffffff
+}
+
+.fix {
+  position: fixed;
+}
+
+.left-20px {
+  left: 20px;
+}
+
+.top-20px {
+  top: 20px;
+}
+
+.bottom-20px {
+  bottom: 20px;
+}
