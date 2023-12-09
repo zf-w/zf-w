@@ -4,4 +4,4 @@
 
 :white_flower: Interested in Graph Visualization [(Link)](https://www.zugzwang.fun/graph/page/0/), AI in Games and Game Visualization [(Link)](https://www.zugzwang.fun/demo/1111game/)
 
-:rose: Contact: zhifeng5@illinois.edu
+:hibiscus: Contact: zhifeng5@illinois.edu
