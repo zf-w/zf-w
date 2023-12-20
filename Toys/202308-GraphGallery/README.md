@@ -1,6 +1,6 @@
 ---
-slug: "GraphGallery-2023"
-title: "Graph Visualization Gallery"
+slug: "2023-GraphGallery"
+title: "202308: Graph Visualization Gallery"
 depth: 0
 description: 'React.js and Three.js Mini Project: Graph Visualization Gallery. In this mini project, I played around with the ideas of "Single Canvas Multi Scene" and "Muli Single Page Web App".'
 author: "王之枫-Zhifeng"

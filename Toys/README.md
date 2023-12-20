@@ -1,8 +1,8 @@
 ---
 slug: "Introduction"
-title: "Introduction to something"
+title: "My mini-projects notebook"
 depth: 0
-description: "The overview of pages."
+description: "The notes of my previous mini-projects. Reviewing back, I did try to learn a bunch of stuff and experiment with various ideas. From 2013 to 2023, thoughts after thoughts, I felt I hardly stopped trying to realize my ideas. Although those steps are super small, recording them is also fun."
 author: "王之枫-Zhifeng"
 ---
 
@@ -12,11 +12,13 @@ author: "王之枫-Zhifeng"
 
 This repository archives some ancient and strange scripts I have written. When I first wrote down this exact sentence, 2023-11-24, I felt like I should keep all those codes for preservation? reproducibility? I guess maybe I want to preserve the changes in my coding styles, interests, and developing personality.
 
-### Why not use relative paths
-
-If you are viewing this text from Github and wondering why I don't use relative paths for the links, that's because I'm also rendering these README files into webpages, and I want to keep those paths working.
-
 # Mini Projects
+
+## Learning Computer Science 2022-Present
+
+I'm trying to archive all the solved problems from various of Online Judges in a somewhat sturctured way.
+
+Since the August of 2022, I started to solve Leetcode daily questions for practice, fun, and expanding my horizon. Those delicate and beautiful ideas from Competitive Programming always attract me. Although Leetcode is not that "competitive programming", comparing to SPOJ and many others, I think it is still a good start for me to approach those knowledge of Computer Science.
 
 ## React-GraphGallery 2023 Summer
 
