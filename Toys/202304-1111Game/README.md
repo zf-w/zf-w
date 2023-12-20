@@ -1,3 +1,11 @@
+---
+slug: "2023-1111GameVis"
+title: "202304: 1111 Game Visualization"
+depth: 0
+description: "My Mini Project: 1111 Game Visualization. At that time, I was learning React.js and Three.js."
+author: "王之枫-Zhifeng"
+---
+
 # ReactThree 1111GameVisualization 2023-05
 
 ## First attempt of making informantion-rich? interactive visualization
