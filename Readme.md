@@ -1,7 +1,15 @@
-🌺 Hi, I'm Zhifeng Wang
+🌹 Thank you for visiting my profile!
 
-🌸 UIUC Class of 2025, Major in Information Science + Data Science, Minor in Computer Science
+🌹 I'm Zhifeng Wang
 
-💮 Interested in Graph Visualization [(Link)](https://www.zf-w.space/), AI in Games [(Connect4)](https://www.zf-w.space/demos/learning-connect4/) and Game Visualization.
+🌹 UIUC Class of 2025 Undergraduate, Major in Information Science + Data Science, Minor in Computer Science
+
+🌹 Interested in AI + Education.
+
+🌹 trying to peek into the fundamental ideas of education through teaching Machines to play Connect Four.
+
+🌹 Interested in Graph Visualization and Game Visualization, in hopes of finding insights into human and machine learning patterns.
+
+🌹 Personal Website: [https://www.zf-w.space/](https://www.zf-w.space/)
 
 🌹 Contact: [zhifeng5@illinois.edu](mailto:zhifeng5@illinois.edu)
