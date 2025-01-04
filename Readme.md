@@ -10,6 +10,6 @@
 
 🌹 Interested in Graph Visualization and Game Visualization, in hopes of finding insights into human and machine learning patterns.
 
-🌹 Personal Website: [https://www.zf-w.space/](https://www.zf-w.space/), Backup: [https://www.zugzwang.fun/](https://www.zugzwang.fun/)
+🌹 Personal Website: [https://www.zf-w.space/](https://www.zf-w.space/), Backup: [https://zf-w.github.io](https://zf-w.github.io)
 
 🌹 Contact: [zhifeng5@illinois.edu](mailto:zhifeng5@illinois.edu)
