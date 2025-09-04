@@ -1,15 +1,15 @@
 🌹 Thank you for visiting my profile!
 
-🌹 I'm Zhifeng Wang
+🌹 My name is Zhifeng (Jrrfung) Wang.
 
-🌹 UIUC Class of 2025 Undergraduate, Major in Information Science + Data Science, Minor in Computer Science
+🌹 University of Illinois Urbana-Champaign Master of Computer Science Student
 
-🌹 Interested in AI + Education.
+🌹 I'm interested in Computer Science + Education.
 
-🌹 trying to peek into the fundamental ideas of education through teaching Machines to play Connect Four.
+🌹 Hoping to peek into the fundamental ideas of education and learning through teaching machines to play the board game of Connect Four.
 
 🌹 Interested in Graph Visualization and Game Visualization, in hopes of finding insights into human and machine learning patterns.
 
 🌹 Personal Website: [https://www.zf-w.space/](https://www.zf-w.space/), Backup: [https://zf-w.github.io](https://zf-w.github.io)
 
-🌹 Contact: [zhifeng5@illinois.edu](mailto:zhifeng5@illinois.edu)
+🌹 Contact Email: [zhifeng5@illinois.edu](mailto:zhifeng5@illinois.edu)
