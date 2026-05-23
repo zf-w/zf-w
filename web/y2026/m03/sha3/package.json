@@ -1,0 +1,14 @@
+{
+  "name": "y2026_m03_sha3",
+  "version": "0.0.20260309",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "8.0.1"
+  }
+}

@@ -1,0 +1,138 @@
+/* 
+    Jrrfung's SHA-3 Implementation for Web
+    Copyright (C) 2026  Zhifeng(Jrrfung)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>. 
+*/
+
+.y2026_m03_sha3_hasher {
+    --btn-border-r: 8px;
+
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    width: 768px;
+
+    .heading_row {
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            line-height: 1rem;
+            margin: 0;
+        }
+
+        .info_btn {
+            background-color: var(--c-info-bg);
+            border: 1px solid var(--c-info-bd);
+            border-radius: 8px;
+            color: var(--c-info-txt);
+            margin: 1px;
+            padding: 4px 8px;
+        }
+
+        .info_btn:hover {
+            background-color: var(--c-info-1-bg);
+            border: 1px solid var(--c-info-1-bd);
+            color: var(--c-info-1-txt);
+            cursor: pointer;
+        }
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        margin: 0;
+    }
+
+    .info {
+        display: none;
+        padding: 1rem; 
+    }
+
+    .btn_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 8px;
+
+        .update_btn {
+            background-color: var(--c-info-bg);
+            border: 1px solid var(--c-info-bd);
+            border-radius: var(--btn-border-r);
+            color: var(--c-info-txt);
+            cursor: pointer;
+            font-weight: 300;
+            padding: 0.3rem 0.65rem;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .update_btn:hover {
+            background-color: var(--c-info-1-bg);
+            border: 1px solid var(--c-info-1-bd);
+            color: var(--c-info-1-txt);
+            cursor: pointer;
+        }
+
+        .reset_btn {
+            background-color: var(--c-warning-bg);
+            border: 1px solid var(--c-warning-bd);
+            border-radius: var(--btn-border-r);
+            color: var(--c-warning-txt);
+            cursor: pointer;
+            font-weight: 300;
+            padding: 0.3rem 0.65rem;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .reset_btn:hover {
+            background-color: var(--c-warning-1-bg);
+            border: 1px solid var(--c-warning-1-bd);
+            color: var(--c-warning-1-txt);
+            cursor: pointer;
+        }
+    }
+
+    .section_heading {
+        border-bottom: 1px solid var(--c-txt);
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .input_area {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .digest_area {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: right;
+
+        padding: 8px;
+    }
+}
+
+.y2026_m03_sha3_hasher.display_info .info {
+        display: block;
+}
